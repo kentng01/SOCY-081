@@ -1,5 +1,6 @@
 <template>
-    <div class="nuxt-app">
+    <div class="__app">
+        <SideBar />
         <Nuxt />
     </div>
 </template>
