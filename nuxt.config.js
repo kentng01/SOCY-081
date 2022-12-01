@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'SOCY081 | Final',
+    title: 'SOCY081 | 最終 Final Paper',
     htmlAttrs: {
       lang: 'en',
     },

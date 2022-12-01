@@ -21,8 +21,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 62.5%;
     font-weight: 400;
-    background-color: #fff;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     margin: 0 0 3rem 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
