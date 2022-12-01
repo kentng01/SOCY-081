@@ -6,22 +6,29 @@
     <main class="socy-main">
       <section class="title-sect">
         <h1>「 Final Paper Presentation 」</h1>
-        <h2>not sure what idea to do...</h2>
+        <h2>K-Pop<font-awesome-icon class="x" icon="fa-solid fa-xmark" />Mental Health</h2>
         <h3>
-          <a href="#">
+          <a href="#2">
             <font-awesome-icon class="down" icon="fa-solid fa-angle-down" />
           </a>
         </h3>
       </section>
+
+      <ZectTwo />
+      <ZectThree />
+      <ZectFour />
+      <ZectFive />
 
     </main>
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'IndexPage',
 }
+
 </script>
 
 <style scoped>
@@ -30,7 +37,7 @@ export default {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 0 7.5rem;
+  padding: 0 10rem;
 }
 
 .mq-msg{
@@ -55,6 +62,11 @@ export default {
   font-size: 2.25rem;
   font-weight: 400;
   font-style: italic;
+}
+
+.x {
+  font-size: 1.625rem;
+  padding: 0 0.75rem 0 1rem
 }
 
 .down {

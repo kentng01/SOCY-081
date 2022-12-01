@@ -32,7 +32,6 @@ export default {
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
     url('@/assets/images/fleeting-colors.jpg');
   background-size: cover;
-  height: 300vh;
 }
 
 @media screen and (max-width: 767px) {

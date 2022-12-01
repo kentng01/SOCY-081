@@ -24,27 +24,27 @@ export default {
                     value: "1"
                 },
                 {
-                    section: "#",
+                    section: "#2",
                     value: "2"
                 },
                 {
-                    section: "#",
+                    section: "#3",
                     value: "3"
                 },
                 {
-                    section: "#",
+                    section: "#4",
                     value: "4"
                 },
                 {
-                    section: "#",
+                    section: "#5",
                     value: "5"
                 },
                 {
-                    section: "#",
+                    section: "#6",
                     value: "6"
                 },
                 {
-                    section: "#",
+                    section: "#7",
                     value: "7"
                 },
                 

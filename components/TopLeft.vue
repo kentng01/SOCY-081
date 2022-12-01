@@ -34,7 +34,7 @@ export default {
 }
 
 .nav-title img:hover {
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(5deg);
 }
 
 .nav-title img:active {

@@ -2,7 +2,7 @@
 
     <div class="nav-label">
         <img src="@/assets/images/anya.png">
-         <p>Copyright &copy; KT,<span>kentng01</span>. December 2022.</p>
+         <p>Copyright &copy; KT,<span>kenNeRu</span>. December 2022.</p>
     </div>
   
 </template>
