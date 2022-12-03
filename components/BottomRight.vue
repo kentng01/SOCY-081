@@ -1,7 +1,7 @@
 <template>
 
     <div class="nav-label">
-        <img src="@/assets/images/anya.png">
+        <img src="@/assets/images/anya.png" alt="waku waku">
          <p>Copyright &copy; KT,<span>kenNeRu</span>. December 2022.</p>
     </div>
   

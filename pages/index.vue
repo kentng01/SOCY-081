@@ -18,6 +18,8 @@
       <ZectThree />
       <ZectFour />
       <ZectFive />
+      <ZectSix />
+      <ZectSeven />
 
     </main>
   </div>

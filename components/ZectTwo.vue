@@ -8,7 +8,7 @@
 
         <div class="sect2-body">
             <div class="txt">
-                <img src="@/assets/images/kpop/txt.png">
+                <img src="@/assets/images/kpop/txt.png" alt="txt">
             </div>
             <div class="points">
                 <h1>BTS, Miss A, Day6, TWICE, IU,...</h1>
@@ -28,25 +28,22 @@
 export default {
     data() {
         return {
-            question: "To What Extent Has K-Pop Shaped And Impacted Mental Health In Youth?",
+            question: "To What Extent Has K-Pop Shaped And Impacted Mental Health?",
             points: [
                 {
-                    bpoint: "1"
+                    bpoint: "「 1 」Social anxiety, pressure, and stress in the industry"
                 },
                 {
-                    bpoint: "2"
+                    bpoint: "「 2 」In South Korea, mental health is considered taboo"
                 },
                 {
-                    bpoint: "3"
+                    bpoint: "「 3 」Songs with impactful themes embedded in lyrics"
                 },
                 {
-                    bpoint: "4"
+                    bpoint: "「 4 」International outreach, timing of COVID-19"
                 },
                 {
-                    bpoint: "5"
-                },
-                {
-                    bpoint: "6"
+                    bpoint: "「 5 」Solidarity amongst fandoms, and idols"
                 },
             ],
         }
@@ -85,6 +82,8 @@ export default {
 .sect2-body {
     padding-top: 4rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .txt {
@@ -93,7 +92,6 @@ export default {
 
 .txt img {
     width: 525px;
-    border-radius: 25%;
 }
 
 .points h1 {
@@ -105,7 +103,7 @@ export default {
 
 .points ul li {
     font-size: 1.375rem;
-    padding: 0.125rem 0;
+    padding: 0.25rem 0;
 }
 
 

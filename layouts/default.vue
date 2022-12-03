@@ -31,7 +31,7 @@ export default {
   background-image: 
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
     url('@/assets/images/fleeting-colors.jpg');
-  background-size: cover;
+  background-size: contain;
 }
 
 @media screen and (max-width: 767px) {
@@ -41,6 +41,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size: cover;
   }
 
 }

@@ -2,7 +2,7 @@
 
     <div class="nav-title">
         <a href="https://kenneru.netlify.app/" target="_blank">
-            <img src="@/assets/images/dazai.png" />
+            <img src="@/assets/images/dazai.png" alt="osamu dazai"/>
         </a>
         <a href="#">
             <h1>KENNY</h1>
@@ -25,6 +25,10 @@ export default {
     display: flex;
 }
 
+.nav-title a {
+    border-radius: 50%;
+}
+
 .nav-title img {
     width: 75px;
     border-radius: 50%;
@@ -34,11 +38,13 @@ export default {
 }
 
 .nav-title img:hover {
-    transform: scale(1.1) rotate(5deg);
+    transform: scale(1.1) rotate(-4deg);
+    border: 0.125rem solid #eff322;
 }
 
 .nav-title img:active {
     transform: scale(0.9);
+    border: 0.125rem solid #fff;
 }
 
 .nav-title a h1 {
