@@ -21,8 +21,6 @@
       <ZectSix />
       <ZectSeven />
 
-      <!-- <FooterOverlay /> -->
-
     </main>
   </div>
 </template>

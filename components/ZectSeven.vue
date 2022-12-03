@@ -101,6 +101,7 @@ export default {
 
 .final-remarks span {
     font-style: italic;
+    color: #eff322;
 }
 
 </style>
