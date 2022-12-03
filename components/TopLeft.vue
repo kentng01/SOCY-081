@@ -50,6 +50,12 @@ export default {
 .nav-title a h1 {
     font-size: 2rem;
     color: #fff;
+    transition: 250ms;
+    border-bottom: solid 1.5px transparent;
+}
+
+.nav-title a h1:hover {
+    border-bottom: solid 1.5px #fff;
 }
 
 

@@ -84,14 +84,6 @@ export default {
     text-align: center;
 }
 
-.header h2 {
-    font-size: 1.625rem;
-    font-weight: 500;
-    padding-top: 0.375rem;
-    text-align: center;
-    font-style: italic;
-}
-
 .sect5-body {
     padding-top: 1rem;
     display: flex;
